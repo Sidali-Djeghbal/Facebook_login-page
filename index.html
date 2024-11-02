@@ -31,6 +31,20 @@
             </div>
         </div>
     </main>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var preLoader = document.getElementById("pre-loader");
+        preLoader.innerHTML = '<img src="images/loader.gif" alt="Loading...">';
+
+        var loaderImage = new Image();
+        loaderImage.src = "images/loader.gif";
+        loaderImage.onload = function() {
+            setTimeout(function() {
+                preLoader.style.display = 'none';
+            }, 4500); // Adjust the timeout to match the duration of your GIF
+        };
+    });
+</script>
     <footer>
         <div class="footer-contents">
             <ol>
