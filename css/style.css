@@ -179,3 +179,13 @@ footer ol li a:hover {
 footer small {
     font-size: 11px;
 }
+
+
+#pre-loader{
+  background: #292b38 url(img/loader.gif) no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
