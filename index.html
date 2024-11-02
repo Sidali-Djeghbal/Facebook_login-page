@@ -31,19 +31,6 @@
             </div>
         </div>
     </main>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var preLoader = document.getElementById('pre-loader');
-        preLoader.innerHTML = '<img src="images/loader.gif" alt="Loading...">';
-
-        var checkIfLoaded = setInterval(function() {
-            if (document.readyState === 'complete') {
-            clearInterval(checkIfLoaded);
-            preLoader.style.display = 'none';
-            }
-        }, 4500);
-    });
-	</script>
     <footer>
         <div class="footer-contents">
             <ol>
