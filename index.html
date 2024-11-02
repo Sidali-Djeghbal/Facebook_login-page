@@ -42,6 +42,18 @@
             setTimeout(function() {
                 preLoader.style.display = 'none';
             }, 4500); // Adjust the timeout to match the duration of your GIF
+            preLoader.style.position = 'fixed';
+            preLoader.style.top = '0';
+            preLoader.style.left = '0';
+            preLoader.style.width = '100%';
+            preLoader.style.height = '100%';
+            preLoader.style.backgroundColor = '#fff';
+            preLoader.style.zIndex = '9999';
+            preLoader.style.display = 'flex';
+            preLoader.style.justifyContent = 'center';
+            preLoader.style.alignItems = 'center';
+            preLoader.style.width = '100vw';
+            preLoader.style.height = '100vh';
         };
     });
 </script>
